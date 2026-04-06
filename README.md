@@ -142,3 +142,19 @@ git push -u origin main
 
 - Use the **UP ARROW** and **DOWN ARROW** in the terminal to scroll through past commands.
 - Use `CTRL+f` to find (and replace) text within a file.
+-
+## Custom Modification
+
+For my custom project, I created `src/cintel/drift_detector_abdellah.py`.
+
+This modified version extends the original drift detection example by adding:
+
+- percentage change for requests
+- percentage change for errors
+- percentage change for latency
+- one overall drift flag
+
+Run with:
+
+```bash
+uv run python -m cintel.drift_detector_abdellah
