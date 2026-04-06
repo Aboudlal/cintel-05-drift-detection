@@ -14,6 +14,8 @@ dependencies = [
     # REQ.DEPS: External packages used by the project code.
     "datafun-toolkit",
     "polars[rtcompat]",
+    "pytest>=9.0.2",
+    "pytest-cov>=7.1.0",
 ]
 
 [project.optional-dependencies]
